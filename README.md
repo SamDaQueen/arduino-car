@@ -14,7 +14,7 @@ This project contains the modules required for creating an Arduino car using a W
 
 ## Project Components
 
-- `WiFi Module`: ESP8266 (running NodeMCU)
+- `WiFi Module`: ESP8266 D1 Mini
 
 
 
