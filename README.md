@@ -1,6 +1,10 @@
 # Arduino Car (WIP)
 
 This project contains the modules required for creating an Arduino car using a Wi-Fi module, TT motor tire wheels, motor driver controller board, and other components.
+<br><br>
+For personal logs related to this project's development process, including notes on what was tried, issues faced, and solutions implemented, please visit my Notion page:
+
+[Link to Personal Logs on Notion](https://www.notion.so/c5b6ac126b9d41408ebcfea41daa169a?v=1ad439b3949a4593b61890744ed84b66&pvs=4)
 
 ## Project Directory Structure
 
