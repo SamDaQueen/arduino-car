@@ -1,8 +1,6 @@
 /*
  *  This sketch demonstrates how to scan WiFi networks.
- *  The API is based on the Arduino WiFi Shield library, but has significant
- * changes as newer WiFi functions are supported. E.g. the return value of
- * `encryptionType()` different because more modern encryption is supported.
+ *  The API is based on the Arduino WiFi Shield library.
  */
 #include <ESP8266WiFi.h>
 

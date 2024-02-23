@@ -1,5 +1,5 @@
-#ifndef WIFI_MODULE_H
-#define WIFI_MODULE_H
+#ifndef WIFI_SERVER_H
+#define WIFI_SERVER_H
 
 #include <ESP8266WiFi.h>
 
@@ -7,17 +7,17 @@
 #include "WiFiClient.h"
 
 /**
- * @brief The WifiModule class provides functionality to connect and disconnect
+ * @brief The WifiServer class provides functionality to connect and disconnect
  * from a WiFi network, handle incoming requests, and control an LED.
  */
-class WifiModule {
+class WifiServer {
  public:
   /**
-   * @brief Constructs a WifiModule object with the specified LED pin.
+   * @brief Constructs a WifiServer object with the specified LED pin.
    *
    * @param ledPin The pin number to which the LED is connected.
    */
-  WifiModule(int ledPin);
+  WifiServer(int ledPin);
 
   /**
    * @brief Connects to the WiFi network.
@@ -57,4 +57,4 @@ class WifiModule {
   void sendResponse(WiFiClient client, int statusCode, const char* message);
 };
 
-#endif
+#endif  // WIFI_SERVER_H

@@ -9,17 +9,26 @@ For personal logs related to this project's development process, including notes
 ## Project Directory Structure
 
 - `README.md`: Project documentation and overview.
-- `src/`: Source code directory
-    - `wifi-module/`: The code for connecting to the ESP8266 WiFi module
+- `arduino`: Sketch and src files for the Arduino
+    - `arduino.ino`: The sketch file to make Arduino the secondary
+    - `src`: Source code directory for Arduino
+        - `secondary/`: The code for I2C communication as secondary
+- `esp8266`: Sketch and src files for the ESP8266 WiFi Module
+    - `esp8266.ino`: The sketch file to make ESP8266 the primary
+    - `src/`: Source code directory
         - `check-wifi/`: Scans for available WiFi networks
-        - `wifi-module.h`: Header file for the functions for Wifi connection
-        - `wifi-module.h`: Implements the functions in the header file
-        - `wifi-module.ino`: Arduino sketch that starts the wifi connection and server from the header file
+        - `primary/`: The code for I2C communication as secondary
+        - `wifi-server/`: The functions for Wifi connection
 
 ## Project Components
 
+- `Arduino`: Arduino MEGA 2560
 - `WiFi Module`: ESP8266 D1 Mini
 
+## Dependencies
 
+- `ArduinoJson` v7.0.3
+- `Wire.h` Built-in
+- `ESP8266WiFi.h` Built-in
 
 
