@@ -1,6 +1,7 @@
 /**
  * @file Primary.cpp
  * @brief Implementation file for the Primary class.
+ * @author Samreen Ansari
  */
 #include "Primary.h"
 

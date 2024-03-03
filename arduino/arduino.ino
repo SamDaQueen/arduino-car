@@ -1,6 +1,7 @@
 /**
  * @file arduino.ino
  * @brief Arduino Sketch for the Arduino Secondary Device
+ * @author Samreen Ansari
  *
  * This sketch initializes the Arduino secondary device, sets up the serial
  *communication, and initializes the I2C communication for the secondary device.

@@ -1,11 +1,11 @@
 #ifndef PRIMARY_H
 #define PRIMARY_H
 
-#include <ArduinoJson.h>
 #include <Wire.h>
 
 /**
  * @brief The Primary class functions for the ESP8266 sketch.
+ * @author Samreen Ansari
  *
  * This class provides functionality to set up the I2C communication.
  */
@@ -34,7 +34,7 @@ class Primary {
   void send_data_to_secondary(const char* data);
 
  private:
-  /**< The I2C address of the secondary module. */
+  /** The I2C address of the secondary module. */
   const int SECONDARY_ADDRESS = 8;
 };
 

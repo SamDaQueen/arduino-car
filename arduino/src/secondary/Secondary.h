@@ -2,11 +2,11 @@
 #ifndef SECONDARY_H
 #define SECONDARY_H
 
-#include <ArduinoJson.h>
 #include <Wire.h>
 
 /**
  * @brief The Secondary class functions for the Arduino sketch.
+ * @author Samreen Ansari
  *
  * This class provides functionality to set up the I2C communication.
  */

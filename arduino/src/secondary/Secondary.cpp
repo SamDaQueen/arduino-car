@@ -2,6 +2,7 @@
 /**
  * @file Secondary.cpp
  * @brief Implementation file for the Secondary class.
+ * @author Samreen Ansari
  */
 #include "Secondary.h"
 
