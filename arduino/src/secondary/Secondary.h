@@ -2,6 +2,7 @@
 #ifndef SECONDARY_H
 #define SECONDARY_H
 
+#include <Arduino.h>
 #include <Wire.h>
 
 /**
@@ -35,7 +36,7 @@ class Secondary {
   static void receive_data_from_primary(int byteCount);
 
  private:
-  /**< The I2C address of the Arduino. */
+  /** The I2C address of the Arduino. */
   const int SECONDARY_ADDRESS = 8;
 };
 

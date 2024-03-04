@@ -15,7 +15,7 @@ void Primary::initialize_i2c() {
 }
 
 void Primary::request_data_from_secondary() {
-  // Request bytes of data from the secondary device and print it.
+  // Request 21 bytes of data from the secondary device and print it.
   Wire.requestFrom(SECONDARY_ADDRESS, 21);
   while (Wire.available()) {
     char c = Wire.read();

@@ -1,6 +1,7 @@
 #ifndef PRIMARY_H
 #define PRIMARY_H
 
+#include <Arduino.h>
 #include <Wire.h>
 
 /**
